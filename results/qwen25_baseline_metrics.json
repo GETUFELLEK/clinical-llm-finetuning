@@ -1,0 +1,46 @@
+{
+  "tag": "qwen25_baseline",
+  "adapter": null,
+  "n": 300,
+  "overall": {
+    "rouge1": 0.5241,
+    "rouge2": 0.3573,
+    "rougeL": 0.4306,
+    "rougeLsum": 0.4429
+  },
+  "avg_pred_words": 61.3,
+  "per_task": {
+    "Abbreviation Expansion": {
+      "n": 37,
+      "rougeL": 0.4129
+    },
+    "Coreference Resolution": {
+      "n": 40,
+      "rougeL": 0.3651
+    },
+    "Named Entity Recognition": {
+      "n": 41,
+      "rougeL": 0.3747
+    },
+    "Paraphrasing": {
+      "n": 29,
+      "rougeL": 0.3111
+    },
+    "Question Answering": {
+      "n": 35,
+      "rougeL": 0.4833
+    },
+    "Relation Extraction": {
+      "n": 43,
+      "rougeL": 0.4663
+    },
+    "Summarization": {
+      "n": 41,
+      "rougeL": 0.4922
+    },
+    "Temporal Information Extraction": {
+      "n": 34,
+      "rougeL": 0.5201
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "model": "unsloth/Meta-Llama-3.1-8B-Instruct",
+  "mode": "qlora",
+  "n_train": 60000,
+  "lora_r": 16,
+  "train_runtime_sec": 8879.2,
+  "train_samples_per_sec": 6.758,
+  "final_train_loss": 0.4384324761072795,
+  "final_eval": {
+    "eval_loss": 0.4258931577205658,
+    "eval_runtime": 10.6747,
+    "eval_samples_per_second": 28.104,
+    "eval_steps_per_second": 3.56,
+    "eval_entropy": 0.43244760679571254,
+    "eval_num_tokens": 35685570.0,
+    "eval_mean_token_accuracy": 0.8628483304851934,
+    "epoch": 1.0
+  },
+  "peak_gpu_mem_gb": 13.38
+}

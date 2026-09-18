@@ -1,0 +1,28 @@
+# Model weights, checkpoints, adapters
+runs/*/checkpoint-*/
+runs/*/final/
+runs/*/runs/
+*.safetensors
+*.bin
+*.pt
+
+# HF cache and datasets (re-downloadable)
+hf_cache/
+data/
+wandb/
+
+# Keep run stats and evaluation results — they are the paper trail
+!runs/*/run_stats.json
+!results/*.json
+!results/*.jsonl
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+env/
+venv/
+.venv/

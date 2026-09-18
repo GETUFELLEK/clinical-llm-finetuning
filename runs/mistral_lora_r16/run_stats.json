@@ -1,0 +1,20 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "mode": "lora",
+  "n_train": 60000,
+  "lora_r": 16,
+  "train_runtime_sec": 10414.5,
+  "train_samples_per_sec": 5.339,
+  "final_train_loss": 0.4406273633207358,
+  "final_eval": {
+    "eval_loss": 0.42795589566230774,
+    "eval_runtime": 11.3292,
+    "eval_samples_per_second": 24.185,
+    "eval_steps_per_second": 3.089,
+    "eval_entropy": 0.43441313930920195,
+    "eval_num_tokens": 36346861.0,
+    "eval_mean_token_accuracy": 0.8648584485054016,
+    "epoch": 1.0
+  },
+  "peak_gpu_mem_gb": 25.14
+}

@@ -1,0 +1,46 @@
+{
+  "tag": "qwen25_lora_r16",
+  "adapter": "runs/qwen25_lora_r16/final",
+  "n": 300,
+  "overall": {
+    "rouge1": 0.6489,
+    "rouge2": 0.4883,
+    "rougeL": 0.5544,
+    "rougeLsum": 0.5568
+  },
+  "avg_pred_words": 57.5,
+  "per_task": {
+    "Abbreviation Expansion": {
+      "n": 37,
+      "rougeL": 0.6205
+    },
+    "Coreference Resolution": {
+      "n": 40,
+      "rougeL": 0.4835
+    },
+    "Named Entity Recognition": {
+      "n": 41,
+      "rougeL": 0.5193
+    },
+    "Paraphrasing": {
+      "n": 29,
+      "rougeL": 0.4352
+    },
+    "Question Answering": {
+      "n": 35,
+      "rougeL": 0.6305
+    },
+    "Relation Extraction": {
+      "n": 43,
+      "rougeL": 0.4961
+    },
+    "Summarization": {
+      "n": 41,
+      "rougeL": 0.5882
+    },
+    "Temporal Information Extraction": {
+      "n": 34,
+      "rougeL": 0.6564
+    }
+  }
+}

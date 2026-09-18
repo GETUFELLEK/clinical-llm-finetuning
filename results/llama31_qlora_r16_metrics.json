@@ -1,0 +1,46 @@
+{
+  "tag": "llama31_qlora_r16",
+  "adapter": "runs/llama31_qlora_r16/final",
+  "n": 300,
+  "overall": {
+    "rouge1": 0.6629,
+    "rouge2": 0.5097,
+    "rougeL": 0.5682,
+    "rougeLsum": 0.5728
+  },
+  "avg_pred_words": 59.8,
+  "per_task": {
+    "Abbreviation Expansion": {
+      "n": 37,
+      "rougeL": 0.6188
+    },
+    "Coreference Resolution": {
+      "n": 40,
+      "rougeL": 0.515
+    },
+    "Named Entity Recognition": {
+      "n": 41,
+      "rougeL": 0.5376
+    },
+    "Paraphrasing": {
+      "n": 29,
+      "rougeL": 0.4606
+    },
+    "Question Answering": {
+      "n": 35,
+      "rougeL": 0.6319
+    },
+    "Relation Extraction": {
+      "n": 43,
+      "rougeL": 0.5117
+    },
+    "Summarization": {
+      "n": 41,
+      "rougeL": 0.5922
+    },
+    "Temporal Information Extraction": {
+      "n": 34,
+      "rougeL": 0.6682
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "lora",
+  "n_train": 60000,
+  "lora_r": 16,
+  "train_runtime_sec": 7619.4,
+  "train_samples_per_sec": 7.875,
+  "final_train_loss": 0.43572714023590087,
+  "final_eval": {
+    "eval_loss": 0.42244577407836914,
+    "eval_runtime": 9.9927,
+    "eval_samples_per_second": 30.022,
+    "eval_steps_per_second": 3.803,
+    "eval_entropy": 0.4303723134492573,
+    "eval_num_tokens": 34776849.0,
+    "eval_mean_token_accuracy": 0.863183823071028,
+    "epoch": 1.0
+  },
+  "peak_gpu_mem_gb": 24.84
+}

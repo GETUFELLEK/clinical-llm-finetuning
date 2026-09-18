@@ -1,0 +1,46 @@
+{
+  "tag": "mistral_baseline",
+  "adapter": null,
+  "n": 300,
+  "overall": {
+    "rouge1": 0.5308,
+    "rouge2": 0.3617,
+    "rougeL": 0.4262,
+    "rougeLsum": 0.4388
+  },
+  "avg_pred_words": 93.9,
+  "per_task": {
+    "Abbreviation Expansion": {
+      "n": 37,
+      "rougeL": 0.4807
+    },
+    "Coreference Resolution": {
+      "n": 40,
+      "rougeL": 0.3248
+    },
+    "Named Entity Recognition": {
+      "n": 41,
+      "rougeL": 0.3639
+    },
+    "Paraphrasing": {
+      "n": 29,
+      "rougeL": 0.3222
+    },
+    "Question Answering": {
+      "n": 35,
+      "rougeL": 0.5162
+    },
+    "Relation Extraction": {
+      "n": 43,
+      "rougeL": 0.3855
+    },
+    "Summarization": {
+      "n": 41,
+      "rougeL": 0.4877
+    },
+    "Temporal Information Extraction": {
+      "n": 34,
+      "rougeL": 0.5287
+    }
+  }
+}

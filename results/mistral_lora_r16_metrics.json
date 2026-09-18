@@ -1,0 +1,46 @@
+{
+  "tag": "mistral_lora_r16",
+  "adapter": "runs/mistral_lora_r16/final",
+  "n": 300,
+  "overall": {
+    "rouge1": 0.6564,
+    "rouge2": 0.4926,
+    "rougeL": 0.5514,
+    "rougeLsum": 0.5563
+  },
+  "avg_pred_words": 55.0,
+  "per_task": {
+    "Abbreviation Expansion": {
+      "n": 37,
+      "rougeL": 0.6214
+    },
+    "Coreference Resolution": {
+      "n": 40,
+      "rougeL": 0.5214
+    },
+    "Named Entity Recognition": {
+      "n": 41,
+      "rougeL": 0.5086
+    },
+    "Paraphrasing": {
+      "n": 29,
+      "rougeL": 0.4458
+    },
+    "Question Answering": {
+      "n": 35,
+      "rougeL": 0.6162
+    },
+    "Relation Extraction": {
+      "n": 43,
+      "rougeL": 0.528
+    },
+    "Summarization": {
+      "n": 41,
+      "rougeL": 0.5667
+    },
+    "Temporal Information Extraction": {
+      "n": 34,
+      "rougeL": 0.6019
+    }
+  }
+}

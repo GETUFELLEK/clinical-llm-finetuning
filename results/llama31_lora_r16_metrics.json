@@ -1,0 +1,46 @@
+{
+  "tag": "llama31_lora_r16",
+  "adapter": "runs/llama31_lora_r16/final",
+  "n": 300,
+  "overall": {
+    "rouge1": 0.6646,
+    "rouge2": 0.5122,
+    "rougeL": 0.5711,
+    "rougeLsum": 0.5754
+  },
+  "avg_pred_words": 57.4,
+  "per_task": {
+    "Abbreviation Expansion": {
+      "n": 37,
+      "rougeL": 0.6314
+    },
+    "Coreference Resolution": {
+      "n": 40,
+      "rougeL": 0.5153
+    },
+    "Named Entity Recognition": {
+      "n": 41,
+      "rougeL": 0.5321
+    },
+    "Paraphrasing": {
+      "n": 29,
+      "rougeL": 0.4211
+    },
+    "Question Answering": {
+      "n": 35,
+      "rougeL": 0.6492
+    },
+    "Relation Extraction": {
+      "n": 43,
+      "rougeL": 0.5257
+    },
+    "Summarization": {
+      "n": 41,
+      "rougeL": 0.6007
+    },
+    "Temporal Information Extraction": {
+      "n": 34,
+      "rougeL": 0.6805
+    }
+  }
+}
