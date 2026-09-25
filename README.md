@@ -187,3 +187,14 @@ metrics and generated outputs needed to reproduce every number above.
 
 Code under MIT. Llama 3.1 is used under the Llama Community License; Mistral and Qwen under
 Apache 2.0. Asclepius is released by its authors for research use.
+
+## Preference optimization: a negative result
+
+I built a DPO pipeline (rejection sampling → scored preference pairs → DPO training) and then
+did not train, because inspecting the pairs showed the automated reward ranked responses
+wrongly more often than not — in one case preferring a hallucinated abbreviation expansion
+over the correct one. Full analysis: [dpo_reward_analysis.md](dpo_reward_analysis.md).
+
+The conclusion is structural: lexical grounding rewards copying the source note, and ROUGE
+against a reference rewards breadth. Neither measures whether the answer is right. Doing this
+properly needs human preference labels or a judge model.
